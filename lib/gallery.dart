@@ -158,7 +158,10 @@ class _PreviewScreenState extends State<PreviewScreen> {
   void _getFromCamera() async {
     XFile? pickedFile =
         await ImagePicker().pickImage(source: ImageSource.camera);
-    final File newImage = await File(pickedFile!.path);
+        
+    print(pickedFile!.path);
+    // final File newImage = await File(pickedFile.path);
+
 
     setState(() {
       imageFile = File(pickedFile.path);
@@ -191,7 +194,11 @@ class _PreviewScreenState extends State<PreviewScreen> {
                 child: RepaintBoundary(
                   key: _globalKey,
                   child: Container(
-                    child: Image.file(imageFile!),
+                    child: imageFile == null ?
+                    Container(
+                      color: Colors.white,
+                    )
+                     : Image.file(imageFile!),
                   ),
                 ),
               ),
