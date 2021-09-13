@@ -1,8 +1,6 @@
-import 'package:camera_flutter/camera_homePage.dart';
 import 'package:camera_flutter/gallery.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui';
-
+ 
 void main() {
   runApp(MyApp());
 }

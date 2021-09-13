@@ -32,6 +32,8 @@ dependencies:
   path_provider: ^2.0.3
   permission_handler: ^8.1.6
   camera: ^0.9.2+2
+  path: ^1.8.0
+  modern_form_esys_flutter_share: ^1.0.0
 
 
 

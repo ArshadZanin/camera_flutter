@@ -10,6 +10,7 @@ MERGED from [:camera] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\camer
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_gallery_saver] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\image_gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:android_external_storage] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\android_external_storage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
 MERGED from [:fluttertoast] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:gallery_saver] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -68,6 +69,8 @@ application
 ADDED from C:\Users\MrROCKo\StudioProjects\camera_flutter\android\app\src\main\AndroidManifest.xml:7:5-44:19
 MERGED from [:image_picker] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
 MERGED from [:image_picker] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\MrROCKo\.gradle\caches\transforms-2\files-2.1\4d87ed05196533b5ec796c2b8988bfe8\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\MrROCKo\.gradle\caches\transforms-2\files-2.1\4d87ed05196533b5ec796c2b8988bfe8\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\MrROCKo\.gradle\caches\transforms-2\files-2.1\bf224960c448cf8df3cc05170c7e1480\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -134,6 +137,8 @@ MERGED from [:image_gallery_saver] C:\Users\MrROCKo\StudioProjects\camera_flutte
 MERGED from [:image_gallery_saver] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\image_gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:android_external_storage] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\android_external_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:android_external_storage] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\android_external_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\fluttertoast\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:gallery_saver] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -236,3 +241,13 @@ uses-permission#android.permission.RECORD_AUDIO
 ADDED from [:camera] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
 	android:name
 		ADDED from [:camera] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+provider#de.esys.esysfluttershare.EsysFlutterShareFileProvider
+ADDED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-110
+	android:exported
+		ADDED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:modern_form_esys_flutter_share] C:\Users\MrROCKo\StudioProjects\camera_flutter\build\modern_form_esys_flutter_share\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-81
